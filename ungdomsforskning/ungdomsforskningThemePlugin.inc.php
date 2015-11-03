@@ -30,7 +30,7 @@ class ungdomsforskningThemePlugin extends ThemePlugin {
 	}
 
 	function getDescription() {
-		return 'Responsive theme for Tidsskrift for ungdomsforskning, based on nbf theme';
+		return 'Responsive theme for Tidsskrift for ungdomsforskning, based on ungdomsforskning theme';
 	}
 
 	function getStylesheetFilename() {
