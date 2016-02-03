@@ -303,24 +303,14 @@ ul.steplist li.current a {
 	display: inline-block;
 }
 
-#navbar .menu li a:hover {
-	background-color: #d1f0ff;
+#navbar .menu li a:hover, #navbar .menu li a:focus {
+	background-color: yellow;
 	color: black;
-}
-
-#navbar .menu li a:focus {
-	background-color: #FF6C00;
-	color: white;
 }
 
 #navbar li.currentPage a {
-	/*	background-color: #320;*/
-	
-	background-color: #B3E6FF;
-	/*#6b5a49;*/
-	
+	background-color: #aae4e6;
 	color: black;
-	/*background: linear-gradient(to bottom, #000000 0%, #444444 1%, #262626 26%, #000000 64%, #000000 100%);*/
 }
 /* #navbar END */
 
@@ -660,23 +650,34 @@ hr {
 	position: relative;
 	background-position: center;
 	background-repeat: repeat;
-	background-color: rgb(84, 201, 205);
-    background-color: rgba(84, 201, 205,.5);
-    position: relative;
-    z-index:1;
+	background-color: white;
+	position: relative;
+	z-index:1;
 }
 
-#header:after{
+#header::after{
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:-2;
+	background-image: url('header-bg.jpg');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#header::before{
+	content:"";
 	position:absolute;
 	top:0;
 	left:0;
 	right:0;
 	bottom:0;
 	z-index:-1;
-	background-image: url('header-bg.jpg');
-	background-position: bottom right;
-	background-repeat: no-repeat;
-	background-size: auto, 100%;
+	background-color: rgba(84, 201, 205,.5);
 }
 
 
