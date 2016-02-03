@@ -687,6 +687,20 @@ hr {
 	 text-align:left;
 }
 
+@media screen and (max-width: 35em){
+	#header #headerTitle {
+		font-size: 3.3vw;
+	}
+
+}
+
+@media screen and (max-width: 25em){
+	#header #headerTitle {
+		font-size: 3vw;
+	}
+
+}
+
 #headerTitle h1 {
 	font-size: 2.5em;
 	line-height: .75em;
@@ -712,13 +726,6 @@ hr {
 
 #header #headerTitle h1 span {
 	display: block;
-}
-
-@media screen and (max-width: 30em){
-    #header #headerTitle {
-        font-size: 3vw;
-    }
-
 }
 
 #header a {
@@ -852,9 +859,6 @@ hr {
 	#header {
 		padding-right: 4rem;
 	}
-	#headerTitle h1 {
-		font-size: 4vw;
-	}
 	/* narrow HEADER END */
 	#navbar {
 		margin-right: 0rem;
@@ -946,33 +950,9 @@ hr {
 }
 /* Narrow Layout END */
 
-@media screen and (max-width: 45em) {
-	#header h1 {
-		font-size: 2.5em;
-	}
-}
-
-@media screen and (max-width: 40em) {
-	#header h1 {
-		font-size: 2em;
-	}
-}
-
-@media screen and (max-width: 35em) {
-	#header h1 {
-		font-size: 1.75em;
-		padding-left: 0.3em;
-		padding-left: .5rem;
-	}
-}
 /* Ultra Narrow Layout Start */
 
 @media screen and (max-width: 30em) {
-	#headerTitle h1 {
-		font-size: 1.2em;
-		/* Base font-size on viewport vidth if supported */
-		font-size: 5vw;
-	}
 	.hioaFooterLogo {
 		display: none;
 	}
