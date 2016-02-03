@@ -651,46 +651,73 @@ hr {
 #main > h2 + #content {
 	border-top: 1px solid #320;
 }
+
 /* HEADER START */
 
 #header {
 	box-sizing: border-box;
-	background: #b3e6ff;
 	min-height: 4rem;
 	position: relative;
-	/*background-image: url('header-bg.jpg');*/
-	background-size: auto 100%;
 	background-position: center;
 	background-repeat: repeat;
+	background-color: rgb(84, 201, 205);
+    background-color: rgba(84, 201, 205,.5);
+    position: relative;
+    z-index:1;
 }
+
+#header:after{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	background-image: url('header-bg.jpg');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: auto, 100%;
+}
+
 
 #headerTitle {
 	background: transparent;
 	height: auto;
-	/*padding: 1rem;*/
+	 text-align:left;
 }
 
 #headerTitle h1 {
-	line-height: 1.25em;
-	text-align: center;
-	padding: 1rem;
-	padding-top: .7em;
-	padding-bottom: .5em;
-	font-size: 3em;
+	font-size: 2.5em;
+	line-height: .75em;
+	padding: .3em;
+	margin: .25em;
+	display: inline-block;
 	font-family: Corbel, Arial, sans-serif;
 	font-weight: bold;
-	color: black;
 	text-transform: none;
-	line-height: 1em;
+	text-align:left;
+	background-color: black;
+	color: white;
 }
 
-#headerTitle .enTitle {
+#header #headerTitle h1 em {
+	text-transform: uppercase;
+	font-weight:normal;
+	color: yellow;
+	font-size: .75em;
+	letter-spacing: .27em;
+	word-spacing: .35em;
+}
+
+#header #headerTitle h1 span {
 	display: block;
-	text-transform: none;
-	font-size: .66em;
-	color: white;
-	font-weight: normal;
-	display: block;
+}
+
+@media screen and (max-width: 30em){
+    #header #headerTitle {
+        font-size: 3vw;
+    }
+
 }
 
 #header a {
