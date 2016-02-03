@@ -8,6 +8,8 @@
  * Responsive theme for Tidsskrift for ungdomsforskning, based on Nordisk Barnehageforskning theme
  */
 
+html {font-size: 1.15em;}
+
 body {
 	background-color: #fff;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
@@ -241,6 +243,7 @@ ul.steplist li {
 ul.steplist li.current a {
 	color: black;
 }
+
 /* #navbar START */
 
 #breadcrumb {
