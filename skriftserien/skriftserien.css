@@ -584,7 +584,8 @@ hr {
 /* background-color of header and current page are the same */
 
 #header, #navbar li.currentPage a {
-	background-color: #95d9e8; color: black;
+	background-color: #9FD0EA; color: black;
+	/*ny farge: #9FD0EA; gammel farge: #95d9e8*/
 }
 
 /* navbar colors only */
