@@ -593,8 +593,8 @@ hr {
 #navbar ul {background: transparent;}
 #navbar li a {color: #320;}
 #navbar .menu li a:hover, #navbar .menu li a:focus {
-	background-color: rgb(39,125,144);
-	color: white;
+	background-color: #9FD0EA;
+	text-decoration: underline;
 }
 
 
