@@ -582,6 +582,8 @@ hr {
 #main > h2 + #content {
 	border-top: 1px solid #320;
 }
+
+#authors td.separator {height: 6em; }
 /* FOOTER START */
 
 #pageFooter {
