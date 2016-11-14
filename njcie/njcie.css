@@ -301,7 +301,7 @@ ul.steplist li.current a {
 }
 
 #navbar .menu li a:hover {
-	background-color: #d1f0ff;
+	background-color: #dae4a3;
 	color: black;
 }
 
@@ -311,13 +311,8 @@ ul.steplist li.current a {
 }
 
 #navbar li.currentPage a {
-	/*	background-color: #320;*/
-	
-	background-color: #B3E6FF;
-	/*#6b5a49;*/
-	
+	background-color: #c7cea4;
 	color: black;
-	/*background: linear-gradient(to bottom, #000000 0%, #444444 1%, #262626 26%, #000000 64%, #000000 100%);*/
 }
 /* #navbar END */
 
@@ -660,7 +655,7 @@ hr {
 	background-position-x: 100%;
 	background-position-y: 100%;
 	background-repeat: repeat;
-}
+} 
 
 #headerTitle {
 	background: transparent;
