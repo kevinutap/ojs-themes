@@ -1,0 +1,3 @@
+[submodule "Form_Akademisk"]
+	path = Form_Akademisk
+	url = https://github.com/eirikhanssen/Form_Akademisk.git
